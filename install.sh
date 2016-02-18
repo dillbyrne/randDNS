@@ -17,10 +17,6 @@ function checkUser
 
 function install
 {
-	echo "Changing ownership of files to root"
-	chown -R root:root $DIR
-	chown root:root $BIN
-
 	
 	echo "Copying  files to the correct directories"
 	cp -R $DIR /etc/
@@ -28,7 +24,12 @@ function install
 
 	echo "Changing permissions"
 	chmod 700 /usr/sbin/randdns
-	chmod -R 600 /etc/randDNS/*
+	chmod -R 600 /etc/$DIR/*
+	
+	echo "Changing ownership of files to root"
+	chown -R root:root /etc/$DIR
+	chown root:root /usr/sbin/randdns
+
 
 	echo "Creating Symbolic link"
 	ln -s /usr/sbin/randdns $RUNLINK

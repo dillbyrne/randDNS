@@ -8,7 +8,7 @@
 
 
 #CONF=/etc/randDNS/randdns.conf
-CONF=randDNS/randdns.conf
+CONF=/etc/randdns/randdns.conf
 
 function getRandomDNSServer
 {
