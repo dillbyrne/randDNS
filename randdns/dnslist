@@ -1,0 +1,35 @@
+# censurfridns
+# http://blog.censurfridns.dk/en/ip
+
+nameserver 91.239.100.100
+nameserver 89.233.43.71
+
+# Google DNS
+# https://developers.google.com/speed/public-dns
+
+#nameserver 8.8.8.8
+#nameserver 8.8.4.4
+
+# OpenNIC
+# https://servers.opennicproject.org/
+
+nameserver 217.12.203.133
+nameserver 79.133.43.124
+nameserver 31.171.155.107
+nameserver 142.4.204.111
+nameserver 142.4.205.47
+nameserver 81.2.237.32
+nameserver 190.10.8.128
+nameserver 89.111.13.60
+nameserver 178.17.170.67
+nameserver 169.57.14.220
+nameserver 95.85.9.86
+nameserver 185.83.217.248
+nameserver 185.99.132.5
+nameserver 217.12.210.54
+
+# OpenDNS
+# https://use.opendns.com
+
+#nameserver 208.67.222.222
+#nameserver 208.67.220.220
