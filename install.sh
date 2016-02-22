@@ -34,7 +34,7 @@ function install
 	echo "Creating Symbolic link"
 	ln -s /usr/sbin/randdns $RUNLINK
 
-	echo "Install finished, DNS servers will be changed when network is brought up"
+	echo "Install finished, DNS servers will be changed the next time the network is brought up"
 
 }
 

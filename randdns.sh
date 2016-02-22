@@ -7,7 +7,6 @@
 # dillbyrne 2016
 
 
-#CONF=/etc/randDNS/randdns.conf
 CONF=/etc/randdns/randdns.conf
 
 function getRandomDNSServer
