@@ -3,7 +3,7 @@
 # Randomly selects 2 DNS Servers from a user defined list
 # and applies them each time the network is brought up
 #
-# Licence GNU GPL v3+
+# License GNU GPL v3+
 # dillbyrne 2016
 
 
